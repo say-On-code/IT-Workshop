@@ -2,5 +2,5 @@ hrs = input("Enter Hours:")
 h = float(hrs)
 rate = input("Enter Hourly rate:")
 r = float(rate)
-pay=h*r
+pay=h*r  #calculations
 print(pay)
