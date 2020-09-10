@@ -1,7 +1,7 @@
 a = float(input("enter coefficient a: "))
 b = float(input("enter coefficient b: "))
 c = float(input("enter coefficient c: "))
-d = (b ** 2) - (4 * a * c)
-r1 = (-b + (d**0.5)) / (2 * a)
-r2 = (-b - (d**0.5)) / (2 * a)
+d = (b ** 2) - (4 * a * c)   #discriminant
+r1 = (-b + (d**0.5)) / (2 * a)   #first root
+r2 = (-b - (d**0.5)) / (2 * a)   #second root
 print("Roots are:", r1,"\n\t", r2)
