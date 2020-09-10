@@ -1,3 +1,2 @@
 # IT-Workshop
-2nd year college
-for grading purpose
+for grading purpose in 2nd year
