@@ -1,0 +1,6 @@
+a = complex(input("Number 1="))
+b = complex(input("Number 2="))
+print("sum=",a+b)
+print("difference=",a-b)
+print("product=",a*b)
+print("quotent=",a/b)
