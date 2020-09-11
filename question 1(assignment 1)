@@ -1,0 +1,55 @@
+import math
+#question a
+a=input("enter name=")
+print(a)
+#question b
+print("Hello!",a)
+#question c
+a=int(input("enter first number="))
+b=int(input("enter second number="))
+print(a+b)
+#question d
+print(a-b)
+#question e
+print(a*b)
+#question f
+print(a%b)
+#question g
+print(math.trunc(a/b))
+#question h
+print(a**b)
+#question i
+st=input("enter string=")
+print(st)
+#question j
+st=input("enter a long string=")
+print(st[0],st[5])
+#question k
+str=input("enter 2 words with space=")
+s=str.split()
+if len(s)==2:
+ for i in s:
+    print(i)
+#question l
+print(r"\n string \n")
+#question m
+i=input("enter a number=")
+print(int(i))
+#question n
+n=50
+p="you"
+print(f'{n}'+p)
+#question o
+x=input("enter string 1=")
+y=input("enter string 2=")
+l=list()
+l.append(x)
+l.append(y)
+z=''.join(l)
+print(z)
+#question p
+print(x+y)
+#question q
+a1=int(input("enter integer number="))
+b1=float(input("enter double number="))
+print(round((a1*b1)+3,2))
