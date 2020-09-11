@@ -1,5 +1,5 @@
 p = float(input("enter principle: "))
 i = float(input("enter yearly interest: "))
 y = float(input("enter years: "))
-final = (p*i*y)/100 #calculations
+final = p+((p*i*y)/100)#calculations
 print("final amount:",final)
