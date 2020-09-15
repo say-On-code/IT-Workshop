@@ -1,0 +1,13 @@
+n=input("enter a number=")
+l=len(n)
+num=int(n)
+s = 0
+x = num
+while x > 0:
+   d = x % 10
+   s += d ** l
+   x //= 10
+if num == s:
+   print("Armstrong number")
+else:
+   print("not Armstrong number")
