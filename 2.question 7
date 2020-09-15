@@ -1,0 +1,5 @@
+x=int(input("enter number 1:"))
+y=int(input("enter number 2:"))
+z=int(input("enter number 3:"))
+print("maximum-",max(x,y,z))
+print("maximum-",min(x,y,z))
