@@ -1,0 +1,8 @@
+x=input("enter hour")
+y=input("enter rate")
+try:
+    a=int(x)
+    b=int(y)
+except:
+    print("enter numeric input")
+print("final rate=",a*b)
