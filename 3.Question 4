@@ -5,6 +5,6 @@ while(number<=1000):
   for i in range(2,n):
     if(n%i==0):
       s=s+1
-  if(s==0):
+  if(number!=1 and s==0):
     print(number)
   number=number+1
