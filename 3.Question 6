@@ -1,0 +1,15 @@
+x=0
+c=0
+s=0
+while(x!="done"):
+    x=input("enter=")
+    try:
+        n=int(x)
+        s = s + n
+        c = c + 1
+    except:
+        print("wrong input")
+print("final output")
+a=s/c
+print("total",s)
+print("average",a)
