@@ -1,0 +1,9 @@
+ n=input("enter number=")
+try:
+  x=int(n)
+except:
+  print(“not numeric input”)
+s=0
+for i in range(x+1):
+    s=s+i
+print("sum=",s)
