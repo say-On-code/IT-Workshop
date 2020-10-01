@@ -1,0 +1,11 @@
+y= input("Enter elements separated by space ")
+a= y.split()
+c=0
+s=0
+for num in a:
+    i=int(num)
+    s=s+i
+    c=c+1
+print("minimum=",min(a))
+print("maximum=",max(a))
+print("average=",s/c)
