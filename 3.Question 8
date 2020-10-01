@@ -1,0 +1,10 @@
+y= input("Enter elements separated by space ")
+a= y.split()
+a.append('e')
+c=0
+s=0
+for i in a:
+    if(i!='e'):
+        print(i)
+    else:
+        print("No more items")
