@@ -2,7 +2,7 @@
 ->Slices of string in python is a more powerful option to handel string than the array approach it not only minimize code but make it more user friendly.
 
 2. Can you directly replace a character in string just by assigning? If not,state the reason. Also give the solution.
-->We can replace substring in string not character.
+->We can replace substring in string not character.If we have to do we have to use a character as a substring.
 
 3. What is the use of negative index?
 ->Negetive index is used in certain functions in python to get position from the end of string in some special cases it is used.
