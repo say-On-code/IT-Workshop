@@ -1,0 +1,6 @@
+sentence=input("Enter name=")
+x=sentence.split()
+st=""
+for i in x:
+    st=st+i[0]
+print(st)
